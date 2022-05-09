@@ -8,6 +8,7 @@ module alu (
 
 always @(*) 
 begin
+    
     case(op)
         3'b000:c <= a+b;            //相加
         3'b001:c <= a-b;            //相減
