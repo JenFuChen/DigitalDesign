@@ -5,40 +5,40 @@ cModel Technology
 Z0 dC:\Users\user\Documents\JenFu\DigitalDesign\0509HW4
 vAverage
 !i10b 1
-!s100 7?f1d6XG7T8[NkUXkaFnS2
-IT;ae2:NOAND=3^^H8V^SD3
+!s100 16G^OZkM6QM74FSJ9O1KT3
+Idll=dA7@Rh:bj7j`lNKKK2
 Z1 VB9c[Ykif[iL`NEZXioIBA1
 Z2 dC:\Users\user\Documents\JenFu\DigitalDesign\0516HW5
-w1652699556
-Z3 8C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo
-Z4 FC:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo
-L0 31
-Z5 OV;L;10.1d;51
+w1652700446
+8C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.v
+FC:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.v
+L0 1
+Z3 OV;L;10.1d;51
 r1
 !s85 0
 31
-!s108 1652699592.923000
-!s107 C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo|
-Z6 !s90 -reportprogress|300|-work|work|C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo|
+!s108 1652700637.126000
+!s107 C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.v|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.v|
 !s101 -O0
-Z7 o-work work -O0
-Z8 n@average
+Z4 o-work work -O0
+Z5 n@average
 vtestfixture
-Z9 !s100 Y<@J:[i5?_2i:iTVX??_f0
-Z10 IV]T]faa;QUYB^PZLUTecJ1
-Z11 VKBIIT=eCh7cJh[^JXBGX00
+Z6 !s100 Y<@J:[i5?_2i:iTVX??_f0
+Z7 IV]T]faa;QUYB^PZLUTecJ1
+Z8 VKBIIT=eCh7cJh[^JXBGX00
 R2
-Z12 w1652688127
-Z13 8C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
-Z14 FC:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
+Z9 w1652688127
+Z10 8C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
+Z11 FC:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
 L0 10
-R5
+R3
 r1
 31
-Z15 !s90 -reportprogress|300|-work|work|C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v|
-R7
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v|
+R4
 !i10b 1
 !s85 0
-Z16 !s108 1652699592.860000
-Z17 !s107 C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v|
+Z13 !s108 1652700637.064000
+Z14 !s107 C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v|
 !s101 -O0

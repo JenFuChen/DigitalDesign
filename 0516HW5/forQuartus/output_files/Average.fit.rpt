@@ -1,5 +1,5 @@
 Fitter report for Average
-Mon May 16 19:12:27 2022
+Mon May 16 19:28:08 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -62,15 +62,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Mon May 16 19:12:27 2022           ;
+; Fitter Status                      ; Successful - Mon May 16 19:28:08 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Average                                         ;
 ; Top-level Entity Name              ; Average                                         ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C70F896C8                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 1,558 / 68,416 ( 2 % )                          ;
-;     Total combinational functions  ; 1,075 / 68,416 ( 2 % )                          ;
+; Total logic elements               ; 1,547 / 68,416 ( 2 % )                          ;
+;     Total combinational functions  ; 1,066 / 68,416 ( 2 % )                          ;
 ;     Dedicated logic registers      ; 1,097 / 68,416 ( 2 % )                          ;
 ; Total registers                    ; 1097                                            ;
 ; Total pins                         ; 19 / 622 ( 3 % )                                ;
@@ -148,8 +148,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Type                ; Value                  ;
 +---------------------+------------------------+
 ; Placement (by node) ;                        ;
-;     -- Requested    ; 0 / 2196 ( 0.00 % )    ;
-;     -- Achieved     ; 0 / 2196 ( 0.00 % )    ;
+;     -- Requested    ; 0 / 2187 ( 0.00 % )    ;
+;     -- Achieved     ; 0 / 2187 ( 0.00 % )    ;
 ;                     ;                        ;
 ; Routing (by net)    ;                        ;
 ;     -- Requested    ; 0 / 0 ( 0.00 % )       ;
@@ -172,7 +172,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name                 ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
-; Top                            ; 2193    ; 0                 ; N/A                     ; Source File       ;
+; Top                            ; 2184    ; 0                 ; N/A                     ; Source File       ;
 ; hard_block:auto_generated_inst ; 3       ; 0                 ; N/A                     ; Source File       ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 
@@ -188,26 +188,26 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Total logic elements                        ; 1,558 / 68,416 ( 2 % ) ;
-;     -- Combinational with no register       ; 461                    ;
-;     -- Register only                        ; 483                    ;
-;     -- Combinational with a register        ; 614                    ;
+; Total logic elements                        ; 1,547 / 68,416 ( 2 % ) ;
+;     -- Combinational with no register       ; 450                    ;
+;     -- Register only                        ; 481                    ;
+;     -- Combinational with a register        ; 616                    ;
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 834                    ;
-;     -- 3 input functions                    ; 155                    ;
+;     -- 4 input functions                    ; 810                    ;
+;     -- 3 input functions                    ; 170                    ;
 ;     -- <=2 input functions                  ; 86                     ;
-;     -- Register only                        ; 483                    ;
+;     -- Register only                        ; 481                    ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
-;     -- normal mode                          ; 1000                   ;
-;     -- arithmetic mode                      ; 75                     ;
+;     -- normal mode                          ; 989                    ;
+;     -- arithmetic mode                      ; 77                     ;
 ;                                             ;                        ;
 ; Total registers*                            ; 1,097 / 70,234 ( 2 % ) ;
 ;     -- Dedicated logic registers            ; 1,097 / 68,416 ( 2 % ) ;
 ;     -- I/O registers                        ; 0 / 1,818 ( 0 % )      ;
 ;                                             ;                        ;
-; Total LABs:  partially or completely used   ; 134 / 4,276 ( 3 % )    ;
+; Total LABs:  partially or completely used   ; 138 / 4,276 ( 3 % )    ;
 ; Virtual pins                                ; 0                      ;
 ; I/O pins                                    ; 19 / 622 ( 3 % )       ;
 ;     -- Clock pins                           ; 2 / 8 ( 25 % )         ;
@@ -223,11 +223,11 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )          ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )          ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%           ;
-; Peak interconnect usage (total/H/V)         ; 16% / 13% / 19%        ;
+; Peak interconnect usage (total/H/V)         ; 21% / 18% / 24%        ;
 ; Maximum fan-out                             ; 1097                   ;
-; Highest non-global fan-out                  ; 386                    ;
-; Total fan-out                               ; 7512                   ;
-; Average fan-out                             ; 3.09                   ;
+; Highest non-global fan-out                  ; 385                    ;
+; Total fan-out                               ; 7506                   ;
+; Average fan-out                             ; 3.12                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -240,25 +240,25 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 +---------------------------------------------+----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                  ; Low                            ;
 ;                                             ;                      ;                                ;
-; Total logic elements                        ; 1558 / 68416 ( 2 % ) ; 0 / 68416 ( 0 % )              ;
-;     -- Combinational with no register       ; 461                  ; 0                              ;
-;     -- Register only                        ; 483                  ; 0                              ;
-;     -- Combinational with a register        ; 614                  ; 0                              ;
+; Total logic elements                        ; 1547 / 68416 ( 2 % ) ; 0 / 68416 ( 0 % )              ;
+;     -- Combinational with no register       ; 450                  ; 0                              ;
+;     -- Register only                        ; 481                  ; 0                              ;
+;     -- Combinational with a register        ; 616                  ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Logic element usage by number of LUT inputs ;                      ;                                ;
-;     -- 4 input functions                    ; 834                  ; 0                              ;
-;     -- 3 input functions                    ; 155                  ; 0                              ;
+;     -- 4 input functions                    ; 810                  ; 0                              ;
+;     -- 3 input functions                    ; 170                  ; 0                              ;
 ;     -- <=2 input functions                  ; 86                   ; 0                              ;
-;     -- Register only                        ; 483                  ; 0                              ;
+;     -- Register only                        ; 481                  ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Logic elements by mode                      ;                      ;                                ;
-;     -- normal mode                          ; 1000                 ; 0                              ;
-;     -- arithmetic mode                      ; 75                   ; 0                              ;
+;     -- normal mode                          ; 989                  ; 0                              ;
+;     -- arithmetic mode                      ; 77                   ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Total registers                             ; 1097                 ; 0                              ;
 ;     -- Dedicated logic registers            ; 1097 / 68416 ( 2 % ) ; 0 / 68416 ( 0 % )              ;
 ;                                             ;                      ;                                ;
-; Total LABs:  partially or completely used   ; 134 / 4276 ( 3 % )   ; 0 / 4276 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 138 / 4276 ( 3 % )   ; 0 / 4276 ( 0 % )               ;
 ;                                             ;                      ;                                ;
 ; Virtual pins                                ; 0                    ; 0                              ;
 ; I/O pins                                    ; 19                   ; 0                              ;
@@ -274,8 +274,8 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ;     -- Registered Output Connections        ; 0                    ; 0                              ;
 ;                                             ;                      ;                                ;
 ; Internal Connections                        ;                      ;                                ;
-;     -- Total Connections                    ; 7512                 ; 0                              ;
-;     -- Registered Connections               ; 2390                 ; 0                              ;
+;     -- Total Connections                    ; 7506                 ; 0                              ;
+;     -- Registered Connections               ; 2354                 ; 0                              ;
 ;                                             ;                      ;                                ;
 ; External Connections                        ;                      ;                                ;
 ;     -- Top                                  ; 0                    ; 0                              ;
@@ -308,15 +308,15 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; clk     ; T2    ; 1        ; 0            ; 25           ; 2           ; 1                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[0] ; H16   ; 4        ; 49           ; 51           ; 0           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[1] ; H15   ; 3        ; 47           ; 51           ; 3           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[2] ; F16   ; 4        ; 51           ; 51           ; 2           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[3] ; G16   ; 4        ; 51           ; 51           ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[4] ; C17   ; 4        ; 51           ; 51           ; 0           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[5] ; AH16  ; 7        ; 51           ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[6] ; B16   ; 4        ; 49           ; 51           ; 2           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; data[7] ; AE16  ; 7        ; 51           ; 0            ; 0           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; reset   ; G15   ; 3        ; 47           ; 51           ; 2           ; 149                   ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[0] ; A19   ; 4        ; 58           ; 51           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[1] ; H15   ; 3        ; 47           ; 51           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[2] ; B18   ; 4        ; 58           ; 51           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[3] ; B17   ; 4        ; 56           ; 51           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[4] ; A17   ; 4        ; 56           ; 51           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[5] ; AJ14  ; 8        ; 47           ; 0            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[6] ; AD16  ; 7        ; 53           ; 0            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; data[7] ; C17   ; 4        ; 51           ; 51           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; reset   ; G15   ; 3        ; 47           ; 51           ; 2           ; 211                   ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
@@ -325,15 +325,15 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 +--------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name   ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +--------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; out[0] ; D14   ; 3        ; 40           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[1] ; A14   ; 3        ; 42           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[2] ; B15   ; 3        ; 44           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[3] ; C13   ; 3        ; 40           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[4] ; E15   ; 3        ; 44           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[5] ; C15   ; 3        ; 44           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[6] ; D15   ; 3        ; 42           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; out[7] ; B14   ; 3        ; 42           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; valid  ; C16   ; 4        ; 49           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[0] ; G17   ; 4        ; 53           ; 51           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[1] ; AC16  ; 7        ; 53           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[2] ; F16   ; 4        ; 51           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[3] ; H17   ; 4        ; 53           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[4] ; C16   ; 4        ; 49           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[5] ; B16   ; 4        ; 49           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[6] ; D17   ; 4        ; 53           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; out[7] ; E17   ; 4        ; 56           ; 51           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; valid  ; G16   ; 4        ; 51           ; 51           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +--------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
@@ -344,12 +344,12 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 +----------+------------------+---------------+--------------+
 ; 1        ; 1 / 85 ( 1 % )   ; 3.3V          ; --           ;
 ; 2        ; 2 / 79 ( 3 % )   ; 3.3V          ; --           ;
-; 3        ; 10 / 72 ( 14 % ) ; 3.3V          ; --           ;
-; 4        ; 6 / 74 ( 8 % )   ; 3.3V          ; --           ;
+; 3        ; 2 / 72 ( 3 % )   ; 3.3V          ; --           ;
+; 4        ; 13 / 74 ( 18 % ) ; 3.3V          ; --           ;
 ; 5        ; 0 / 85 ( 0 % )   ; 3.3V          ; --           ;
 ; 6        ; 1 / 81 ( 1 % )   ; 3.3V          ; --           ;
 ; 7        ; 2 / 74 ( 3 % )   ; 3.3V          ; --           ;
-; 8        ; 0 / 72 ( 0 % )   ; 3.3V          ; --           ;
+; 8        ; 1 / 72 ( 1 % )   ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
 
 
@@ -370,12 +370,12 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; A11      ; 586        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A12      ; 578        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A13      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; A14      ; 569        ; 3        ; out[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A14      ; 569        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A15      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A16      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; A17      ; 549        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; A17      ; 549        ; 4        ; data[4]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A18      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; A19      ; 545        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; A19      ; 545        ; 4        ; data[0]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A20      ; 540        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A21      ; 532        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A22      ; 528        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -461,7 +461,7 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; AC13     ; 223        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC14     ; 231        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC15     ; 245        ; 7        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; AC16     ; 250        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AC16     ; 250        ; 7        ; out[1]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AC17     ; 259        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC18     ; 272        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC19     ; 282        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -491,7 +491,7 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; AD13     ; 222        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD14     ; 229        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD15     ; 244        ; 7        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; AD16     ; 249        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AD16     ; 249        ; 7        ; data[6]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AD17     ; 258        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD18     ; 271        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD19     ; 281        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -521,7 +521,7 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; AE13     ; 221        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE14     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AE15     ; 235        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AE16     ; 248        ; 7        ; data[7]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AE16     ; 248        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE17     ; 255        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE18     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AE19     ; 284        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -611,7 +611,7 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; AH13     ; 237        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AH14     ; 243        ; 8        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; AH15     ; 241        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AH16     ; 247        ; 7        ; data[5]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AH16     ; 247        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AH17     ; 253        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AH18     ; 261        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AH19     ; 267        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -639,7 +639,7 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; AJ11     ; 220        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AJ12     ; 228        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AJ13     ; 236        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AJ14     ; 239        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; AJ14     ; 239        ; 8        ; data[5]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AJ15     ; 240        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AJ16     ; 246        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AJ17     ; 257        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -697,11 +697,11 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; B11      ; 585        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B12      ; 577        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B13      ; 573        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B14      ; 568        ; 3        ; out[7]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B15      ; 565        ; 3        ; out[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B16      ; 559        ; 4        ; data[6]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; B17      ; 548        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B18      ; 547        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; B14      ; 568        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; B15      ; 565        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; B16      ; 559        ; 4        ; out[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B17      ; 548        ; 4        ; data[3]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B18      ; 547        ; 4        ; data[2]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B19      ; 544        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B20      ; 539        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B21      ; 531        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -726,11 +726,11 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; C10      ; 600        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C11      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C12      ; 584        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; C13      ; 572        ; 3        ; out[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C13      ; 572        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C14      ; 575        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; C15      ; 564        ; 3        ; out[5]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C16      ; 558        ; 4        ; valid                                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; C17      ; 554        ; 4        ; data[4]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C15      ; 564        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; C16      ; 558        ; 4        ; out[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C17      ; 554        ; 4        ; data[7]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; C18      ; 546        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C19      ; 538        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C20      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -757,10 +757,10 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; D11      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; D12      ; 583        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D13      ; 588        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; D14      ; 571        ; 3        ; out[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; D15      ; 567        ; 3        ; out[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; D14      ; 571        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; D15      ; 567        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D16      ; 561        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; D17      ; 553        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; D17      ; 553        ; 4        ; out[6]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; D18      ; 541        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; D19      ; 537        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D20      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -788,9 +788,9 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; E12      ; 589        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E13      ; 579        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E14      ; 570        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; E15      ; 566        ; 3        ; out[4]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; E15      ; 566        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E16      ; 560        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; E17      ; 550        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; E17      ; 550        ; 4        ; out[7]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E18      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; E19      ; 534        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; E20      ; 530        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -819,7 +819,7 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; F13      ; 580        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F14      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F15      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; F16      ; 556        ; 4        ; data[2]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; F16      ; 556        ; 4        ; out[2]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F17      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F18      ; 543        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F19      ; 533        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -849,8 +849,8 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; G13      ; 582        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G14      ; 576        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G15      ; 562        ; 3        ; reset                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; G16      ; 555        ; 4        ; data[3]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; G17      ; 551        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; G16      ; 555        ; 4        ; valid                                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G17      ; 551        ; 4        ; out[0]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; G18      ; 542        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G19      ; 521        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; G20      ; 511        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -879,8 +879,8 @@ The pin-out file can be found in C:/Users/user/Documents/JenFu/DigitalDesign/051
 ; H13      ; 587        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H14      ; 574        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H15      ; 563        ; 3        ; data[1]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; H16      ; 557        ; 4        ; data[0]                                  ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; H17      ; 552        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; H16      ; 557        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; H17      ; 552        ; 4        ; out[3]                                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; H18      ; 535        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H19      ; 524        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H20      ; 512        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1300,7 +1300,7 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
-; |Average                   ; 1558 (1558) ; 1097 (1097)               ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 19   ; 0            ; 461 (461)    ; 483 (483)         ; 614 (614)        ; |Average            ; work         ;
+; |Average                   ; 1547 (1547) ; 1097 (1097)               ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 19   ; 0            ; 450 (450)    ; 481 (481)         ; 616 (616)        ; |Average            ; work         ;
 +----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1332,36 +1332,29 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------+----------+---------------+---------------+-----------------------+-----+
 
 
-+-----------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                            ;
-+-----------------------------+-------------------+---------+
-; Source Pin / Fanout         ; Pad To Core Index ; Setting ;
-+-----------------------------+-------------------+---------+
-; clk                         ;                   ;         ;
-; reset                       ;                   ;         ;
-; data[1]                     ;                   ;         ;
-; data[0]                     ;                   ;         ;
-;      - form1[127][0]        ; 0                 ; 6       ;
-;      - form1~224            ; 0                 ; 6       ;
-; data[2]                     ;                   ;         ;
-;      - form1~225            ; 0                 ; 6       ;
-;      - form1[127][2]~feeder ; 0                 ; 6       ;
-; data[3]                     ;                   ;         ;
-;      - form1[127][3]        ; 1                 ; 6       ;
-;      - form1~226            ; 1                 ; 6       ;
-; data[4]                     ;                   ;         ;
-;      - form1[127][4]        ; 0                 ; 6       ;
-;      - form1~227            ; 0                 ; 6       ;
-; data[5]                     ;                   ;         ;
-;      - form1[127][5]        ; 0                 ; 6       ;
-;      - form1~228            ; 0                 ; 6       ;
-; data[6]                     ;                   ;         ;
-;      - form1[127][6]        ; 0                 ; 6       ;
-;      - form1~229            ; 0                 ; 6       ;
-; data[7]                     ;                   ;         ;
-;      - form1[127][7]        ; 0                 ; 6       ;
-;      - form1~230            ; 0                 ; 6       ;
-+-----------------------------+-------------------+---------+
++---------------------------------------------------+
+; Pad To Core Delay Chain Fanout                    ;
++---------------------+-------------------+---------+
+; Source Pin / Fanout ; Pad To Core Index ; Setting ;
++---------------------+-------------------+---------+
+; clk                 ;                   ;         ;
+; reset               ;                   ;         ;
+; data[1]             ;                   ;         ;
+; data[0]             ;                   ;         ;
+;      - form1~155    ; 0                 ; 6       ;
+; data[2]             ;                   ;         ;
+;      - form1~156    ; 0                 ; 6       ;
+; data[3]             ;                   ;         ;
+;      - form1~157    ; 1                 ; 6       ;
+; data[4]             ;                   ;         ;
+;      - form1~158    ; 1                 ; 6       ;
+; data[5]             ;                   ;         ;
+;      - form1~159    ; 1                 ; 6       ;
+; data[6]             ;                   ;         ;
+;      - form1~160    ; 0                 ; 6       ;
+; data[7]             ;                   ;         ;
+;      - form1~161    ; 1                 ; 6       ;
++---------------------+-------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1370,138 +1363,137 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name              ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +-------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; clk               ; PIN_T2             ; 1097    ; Clock        ; yes    ; Global Clock         ; GCLK3            ; --                        ;
-; cnt[23]~93        ; LCCOMB_X50_Y35_N4  ; 32      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[0][4]~260   ; LCCOMB_X42_Y31_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[100][5]~202 ; LCCOMB_X44_Y29_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[101][3]~280 ; LCCOMB_X48_Y30_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[102][2]~201 ; LCCOMB_X45_Y29_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[103][6]~281 ; LCCOMB_X48_Y30_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[104][2]~130 ; LCCOMB_X42_Y36_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[105][0]~237 ; LCCOMB_X42_Y36_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[106][4]~129 ; LCCOMB_X44_Y37_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[107][0]~238 ; LCCOMB_X44_Y36_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[108][5]~127 ; LCCOMB_X44_Y37_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[109][5]~232 ; LCCOMB_X42_Y37_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[10][0]~276  ; LCCOMB_X41_Y30_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[110][6]~126 ; LCCOMB_X44_Y37_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[111][0]~235 ; LCCOMB_X42_Y37_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[112][3]~222 ; LCCOMB_X48_Y30_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[113][1]~221 ; LCCOMB_X48_Y30_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[114][3]~220 ; LCCOMB_X48_Y30_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[115][1]~223 ; LCCOMB_X48_Y30_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[116][4]~218 ; LCCOMB_X48_Y30_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[117][3]~216 ; LCCOMB_X49_Y31_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[118][0]~217 ; LCCOMB_X48_Y30_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[119][5]~219 ; LCCOMB_X48_Y30_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[11][0]~279  ; LCCOMB_X40_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[120][6]~152 ; LCCOMB_X51_Y33_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[121][3]~151 ; LCCOMB_X51_Y33_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[122][4]~150 ; LCCOMB_X51_Y33_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[123][4]~153 ; LCCOMB_X51_Y33_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[124][4]~147 ; LCCOMB_X49_Y31_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[125][4]~145 ; LCCOMB_X51_Y31_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[126][4]~146 ; LCCOMB_X50_Y30_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[127][7]~149 ; LCCOMB_X50_Y35_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[12][3]~274  ; LCCOMB_X42_Y30_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[13][2]~272  ; LCCOMB_X40_Y29_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[14][1]~273  ; LCCOMB_X41_Y29_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[15][4]~275  ; LCCOMB_X40_Y29_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[16][5]~164  ; LCCOMB_X43_Y35_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[17][6]~163  ; LCCOMB_X49_Y32_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[18][3]~162  ; LCCOMB_X43_Y35_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[19][3]~165  ; LCCOMB_X49_Y32_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[1][1]~259   ; LCCOMB_X42_Y30_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[20][3]~159  ; LCCOMB_X41_Y30_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[21][3]~156  ; LCCOMB_X41_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[22][3]~158  ; LCCOMB_X43_Y32_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[23][1]~160  ; LCCOMB_X45_Y32_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[24][6]~190  ; LCCOMB_X40_Y33_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[25][1]~189  ; LCCOMB_X40_Y34_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[26][6]~188  ; LCCOMB_X41_Y34_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[27][3]~191  ; LCCOMB_X40_Y34_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[28][7]~186  ; LCCOMB_X41_Y35_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[29][0]~184  ; LCCOMB_X42_Y33_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[2][5]~258   ; LCCOMB_X42_Y33_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[30][0]~185  ; LCCOMB_X42_Y33_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[31][5]~187  ; LCCOMB_X42_Y33_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[32][4]~253  ; LCCOMB_X42_Y35_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[33][1]~252  ; LCCOMB_X42_Y33_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[34][3]~251  ; LCCOMB_X42_Y33_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[35][1]~254  ; LCCOMB_X42_Y35_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[36][6]~169  ; LCCOMB_X44_Y29_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[37][2]~166  ; LCCOMB_X42_Y33_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[38][1]~168  ; LCCOMB_X45_Y29_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[39][3]~170  ; LCCOMB_X42_Y32_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[3][4]~261   ; LCCOMB_X39_Y31_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[40][3]~270  ; LCCOMB_X41_Y30_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[41][3]~269  ; LCCOMB_X42_Y32_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[42][5]~268  ; LCCOMB_X41_Y30_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[43][1]~271  ; LCCOMB_X42_Y32_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[44][7]~265  ; LCCOMB_X41_Y35_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[45][4]~262  ; LCCOMB_X42_Y33_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[46][7]~264  ; LCCOMB_X41_Y34_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[47][0]~266  ; LCCOMB_X40_Y35_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[48][7]~182  ; LCCOMB_X45_Y36_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[49][2]~181  ; LCCOMB_X49_Y35_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[4][3]~174   ; LCCOMB_X42_Y31_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[50][1]~180  ; LCCOMB_X49_Y32_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[51][1]~183  ; LCCOMB_X49_Y35_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[52][2]~178  ; LCCOMB_X51_Y33_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[53][6]~176  ; LCCOMB_X49_Y35_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[54][5]~177  ; LCCOMB_X50_Y35_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[55][3]~179  ; LCCOMB_X51_Y33_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[56][1]~198  ; LCCOMB_X51_Y33_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[57][1]~197  ; LCCOMB_X51_Y32_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[58][1]~196  ; LCCOMB_X49_Y32_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[59][1]~199  ; LCCOMB_X49_Y31_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[5][7]~172   ; LCCOMB_X43_Y28_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[60][1]~194  ; LCCOMB_X51_Y31_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[61][7]~192  ; LCCOMB_X51_Y31_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[62][6]~193  ; LCCOMB_X51_Y31_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[63][3]~195  ; LCCOMB_X51_Y31_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[64][3]~288  ; LCCOMB_X47_Y37_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[65][6]~287  ; LCCOMB_X47_Y37_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[66][6]~215  ; LCCOMB_X48_Y36_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[67][5]~289  ; LCCOMB_X48_Y37_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[68][4]~214  ; LCCOMB_X47_Y37_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[69][1]~285  ; LCCOMB_X49_Y34_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[6][7]~173   ; LCCOMB_X44_Y29_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[70][3]~213  ; LCCOMB_X49_Y34_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[71][2]~286  ; LCCOMB_X49_Y34_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[72][4]~245  ; LCCOMB_X40_Y35_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[73][0]~244  ; LCCOMB_X39_Y34_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[74][5]~144  ; LCCOMB_X40_Y36_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[75][6]~246  ; LCCOMB_X40_Y36_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[76][6]~242  ; LCCOMB_X41_Y36_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[77][6]~239  ; LCCOMB_X41_Y32_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[78][5]~143  ; LCCOMB_X42_Y36_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[79][5]~243  ; LCCOMB_X41_Y36_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[7][7]~175   ; LCCOMB_X47_Y28_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[80][0]~211  ; LCCOMB_X43_Y35_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[81][0]~210  ; LCCOMB_X43_Y35_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[82][0]~209  ; LCCOMB_X45_Y35_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[83][4]~212  ; LCCOMB_X43_Y35_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[84][6]~207  ; LCCOMB_X48_Y35_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[85][4]~205  ; LCCOMB_X49_Y31_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[86][3]~206  ; LCCOMB_X47_Y35_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[87][2]~208  ; LCCOMB_X49_Y35_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[88][4]~141  ; LCCOMB_X49_Y31_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[89][2]~140  ; LCCOMB_X49_Y31_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[8][7]~278   ; LCCOMB_X42_Y30_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[90][4]~139  ; LCCOMB_X49_Y35_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[91][7]~142  ; LCCOMB_X49_Y31_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[92][3]~136  ; LCCOMB_X49_Y31_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[93][7]~133  ; LCCOMB_X49_Y31_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[94][3]~135  ; LCCOMB_X49_Y35_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[95][5]~137  ; LCCOMB_X49_Y35_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[96][1]~204  ; LCCOMB_X49_Y29_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[97][2]~283  ; LCCOMB_X49_Y29_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[98][0]~203  ; LCCOMB_X48_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[99][4]~284  ; LCCOMB_X49_Y29_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; form1[9][1]~277   ; LCCOMB_X41_Y30_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; j[31]~94          ; LCCOMB_X48_Y32_N10 ; 31      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; out[0]~10         ; LCCOMB_X45_Y31_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; reset             ; PIN_G15            ; 149     ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; cnt[29]~48        ; LCCOMB_X48_Y28_N16 ; 32      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[0][7]~78    ; LCCOMB_X51_Y31_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[100][5]~125 ; LCCOMB_X51_Y35_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[101][0]~123 ; LCCOMB_X57_Y33_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[102][4]~124 ; LCCOMB_X57_Y31_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[103][4]~126 ; LCCOMB_X57_Y32_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[104][7]~14  ; LCCOMB_X48_Y29_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[105][7]~13  ; LCCOMB_X48_Y29_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[106][2]~11  ; LCCOMB_X48_Y32_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[107][4]~15  ; LCCOMB_X47_Y33_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[108][1]~8   ; LCCOMB_X48_Y31_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[109][3]~4   ; LCCOMB_X48_Y32_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[10][7]~111  ; LCCOMB_X53_Y33_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[110][3]~7   ; LCCOMB_X49_Y31_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[111][1]~9   ; LCCOMB_X48_Y31_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[112][5]~153 ; LCCOMB_X58_Y35_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[113][6]~152 ; LCCOMB_X59_Y35_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[114][3]~151 ; LCCOMB_X51_Y35_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[115][1]~154 ; LCCOMB_X58_Y35_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[116][7]~149 ; LCCOMB_X48_Y35_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[117][7]~147 ; LCCOMB_X48_Y35_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[118][7]~148 ; LCCOMB_X50_Y35_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[119][3]~150 ; LCCOMB_X50_Y35_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[11][7]~114  ; LCCOMB_X54_Y31_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[120][2]~46  ; LCCOMB_X57_Y30_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[121][1]~45  ; LCCOMB_X57_Y30_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[122][6]~44  ; LCCOMB_X57_Y30_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[123][5]~47  ; LCCOMB_X57_Y30_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[124][0]~42  ; LCCOMB_X51_Y28_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[125][0]~40  ; LCCOMB_X51_Y28_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[126][4]~41  ; LCCOMB_X52_Y28_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[127][6]~43  ; LCCOMB_X51_Y29_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[12][7]~109  ; LCCOMB_X54_Y31_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[13][2]~107  ; LCCOMB_X53_Y29_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[14][5]~108  ; LCCOMB_X56_Y31_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[15][7]~110  ; LCCOMB_X53_Y32_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[16][7]~60   ; LCCOMB_X53_Y33_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[17][7]~59   ; LCCOMB_X50_Y34_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[18][7]~57   ; LCCOMB_X56_Y37_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[19][0]~61   ; LCCOMB_X54_Y33_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[1][7]~77    ; LCCOMB_X51_Y31_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[20][3]~54   ; LCCOMB_X54_Y29_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[21][6]~50   ; LCCOMB_X54_Y33_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[22][5]~53   ; LCCOMB_X54_Y29_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[23][2]~55   ; LCCOMB_X54_Y31_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[24][4]~105  ; LCCOMB_X50_Y28_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[25][4]~104  ; LCCOMB_X49_Y32_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[26][2]~103  ; LCCOMB_X49_Y30_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[27][1]~106  ; LCCOMB_X49_Y32_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[28][0]~101  ; LCCOMB_X48_Y30_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[29][0]~99   ; LCCOMB_X53_Y31_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[2][7]~76    ; LCCOMB_X50_Y31_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[30][0]~100  ; LCCOMB_X44_Y31_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[31][0]~102  ; LCCOMB_X45_Y33_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[32][6]~70   ; LCCOMB_X53_Y28_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[33][5]~69   ; LCCOMB_X50_Y28_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[34][4]~68   ; LCCOMB_X50_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[35][5]~71   ; LCCOMB_X51_Y30_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[36][6]~66   ; LCCOMB_X51_Y34_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[37][1]~63   ; LCCOMB_X48_Y34_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[38][3]~65   ; LCCOMB_X49_Y34_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[39][3]~67   ; LCCOMB_X50_Y35_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[3][5]~79    ; LCCOMB_X50_Y32_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[40][6]~96   ; LCCOMB_X50_Y30_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[41][6]~95   ; LCCOMB_X51_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[42][3]~93   ; LCCOMB_X51_Y30_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[43][3]~98   ; LCCOMB_X53_Y29_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[44][3]~90   ; LCCOMB_X54_Y29_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[45][7]~88   ; LCCOMB_X53_Y30_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[46][5]~89   ; LCCOMB_X53_Y30_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[47][2]~91   ; LCCOMB_X53_Y29_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[48][6]~86   ; LCCOMB_X51_Y34_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[49][2]~85   ; LCCOMB_X50_Y34_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[4][4]~74    ; LCCOMB_X50_Y31_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[50][5]~84   ; LCCOMB_X51_Y30_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[51][6]~87   ; LCCOMB_X51_Y34_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[52][6]~82   ; LCCOMB_X48_Y34_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[53][1]~80   ; LCCOMB_X48_Y30_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[54][4]~81   ; LCCOMB_X48_Y34_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[55][3]~83   ; LCCOMB_X50_Y34_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[56][1]~121  ; LCCOMB_X50_Y28_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[57][4]~120  ; LCCOMB_X50_Y28_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[58][4]~119  ; LCCOMB_X50_Y28_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[59][5]~122  ; LCCOMB_X52_Y27_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[5][2]~72    ; LCCOMB_X50_Y34_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[60][4]~117  ; LCCOMB_X58_Y32_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[61][4]~115  ; LCCOMB_X58_Y32_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[62][2]~116  ; LCCOMB_X59_Y34_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[63][2]~118  ; LCCOMB_X59_Y32_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[64][0]~145  ; LCCOMB_X51_Y34_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[65][6]~144  ; LCCOMB_X50_Y32_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[66][2]~143  ; LCCOMB_X51_Y34_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[67][6]~146  ; LCCOMB_X52_Y37_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[68][2]~141  ; LCCOMB_X54_Y33_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[69][4]~139  ; LCCOMB_X57_Y33_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[6][2]~73    ; LCCOMB_X49_Y31_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[70][4]~140  ; LCCOMB_X51_Y34_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[71][4]~142  ; LCCOMB_X52_Y37_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[72][5]~38   ; LCCOMB_X59_Y31_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[73][4]~37   ; LCCOMB_X57_Y31_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[74][1]~35   ; LCCOMB_X58_Y31_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[75][1]~39   ; LCCOMB_X58_Y31_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[76][3]~33   ; LCCOMB_X54_Y29_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[77][5]~31   ; LCCOMB_X54_Y29_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[78][4]~32   ; LCCOMB_X57_Y31_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[79][6]~34   ; LCCOMB_X54_Y29_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[7][2]~75    ; LCCOMB_X50_Y35_N22 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[80][7]~137  ; LCCOMB_X57_Y34_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[81][1]~136  ; LCCOMB_X56_Y34_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[82][1]~135  ; LCCOMB_X57_Y34_N0  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[83][7]~138  ; LCCOMB_X58_Y34_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[84][3]~133  ; LCCOMB_X54_Y29_N12 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[85][1]~131  ; LCCOMB_X54_Y29_N20 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[86][4]~132  ; LCCOMB_X54_Y29_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[87][1]~134  ; LCCOMB_X57_Y31_N6  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[88][7]~29   ; LCCOMB_X57_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[89][0]~28   ; LCCOMB_X49_Y30_N18 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[8][0]~113   ; LCCOMB_X53_Y37_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[90][0]~26   ; LCCOMB_X49_Y30_N8  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[91][5]~30   ; LCCOMB_X56_Y30_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[92][6]~22   ; LCCOMB_X50_Y29_N28 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[93][3]~18   ; LCCOMB_X50_Y29_N26 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[94][2]~21   ; LCCOMB_X49_Y29_N16 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[95][6]~23   ; LCCOMB_X49_Y29_N14 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[96][1]~129  ; LCCOMB_X59_Y33_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[97][4]~128  ; LCCOMB_X58_Y33_N30 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[98][0]~127  ; LCCOMB_X58_Y35_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[99][0]~130  ; LCCOMB_X57_Y33_N2  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; form1[9][1]~112   ; LCCOMB_X54_Y37_N24 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; j[17]~32          ; LCCOMB_X54_Y36_N2  ; 40      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; reset             ; PIN_G15            ; 211     ; Sync. clear  ; no     ; --                   ; --               ; --                        ;
 +-------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1519,207 +1511,189 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------+-------------+
 ; Name              ; Fan-Out     ;
 +-------------------+-------------+
-; j[0]              ; 386         ;
 ; j[1]              ; 385         ;
-; reset             ; 149         ;
+; j[0]              ; 385         ;
+; reset             ; 211         ;
 ; j[2]              ; 129         ;
-; form1~230         ; 127         ;
-; form1~229         ; 127         ;
-; form1~228         ; 127         ;
-; form1~227         ; 127         ;
-; form1~226         ; 127         ;
-; form1~225         ; 127         ;
-; form1~224         ; 127         ;
-; form1~120         ; 127         ;
-; cnt[2]            ; 41          ;
-; cnt[3]            ; 41          ;
+; form1~161         ; 128         ;
+; form1~160         ; 128         ;
+; form1~159         ; 128         ;
+; form1~158         ; 128         ;
+; form1~157         ; 128         ;
+; form1~156         ; 128         ;
+; form1~155         ; 128         ;
+; form1~0           ; 128         ;
+; cnt[4]            ; 96          ;
+; j[17]~32          ; 40          ;
 ; Add1~2            ; 39          ;
-; cnt[1]            ; 39          ;
-; cnt[5]            ; 39          ;
 ; j[4]              ; 39          ;
 ; Add1~0            ; 37          ;
 ; j[5]              ; 37          ;
 ; j[6]              ; 37          ;
 ; j[3]              ; 35          ;
 ; Add1~1            ; 33          ;
-; cnt[23]~93        ; 32          ;
-; j[31]~94          ; 31          ;
-; cnt[4]            ; 29          ;
-; form1[60][1]~157  ; 23          ;
-; form1[116][4]~124 ; 23          ;
-; form1[63][3]~154  ; 20          ;
-; form1[115][1]~123 ; 19          ;
-; form1[71][2]~134  ; 18          ;
-; form1[116][4]~121 ; 18          ;
-; form1[115][1]~161 ; 16          ;
-; form1[116][4]~155 ; 16          ;
-; form1[59][1]~138  ; 16          ;
-; form1[68][4]~131  ; 16          ;
-; form1[127][7]~125 ; 15          ;
-; form1[127][7]~132 ; 12          ;
-; cnt[31]           ; 9           ;
-; form1[67][5]~289  ; 8           ;
-; form1[64][3]~288  ; 8           ;
-; form1[65][6]~287  ; 8           ;
-; form1[71][2]~286  ; 8           ;
-; form1[69][1]~285  ; 8           ;
-; form1[99][4]~284  ; 8           ;
-; form1[97][2]~283  ; 8           ;
-; form1[103][6]~281 ; 8           ;
-; form1[101][3]~280 ; 8           ;
-; form1[11][0]~279  ; 8           ;
-; form1[8][7]~278   ; 8           ;
-; form1[9][1]~277   ; 8           ;
-; form1[10][0]~276  ; 8           ;
-; form1[15][4]~275  ; 8           ;
-; form1[12][3]~274  ; 8           ;
-; form1[14][1]~273  ; 8           ;
-; form1[13][2]~272  ; 8           ;
-; form1[43][1]~271  ; 8           ;
-; form1[40][3]~270  ; 8           ;
-; form1[41][3]~269  ; 8           ;
-; form1[42][5]~268  ; 8           ;
-; form1[47][0]~266  ; 8           ;
-; form1[44][7]~265  ; 8           ;
-; form1[46][7]~264  ; 8           ;
-; form1[45][4]~262  ; 8           ;
-; form1[3][4]~261   ; 8           ;
-; form1[0][4]~260   ; 8           ;
-; form1[1][1]~259   ; 8           ;
-; form1[2][5]~258   ; 8           ;
-; form1[35][1]~254  ; 8           ;
-; form1[32][4]~253  ; 8           ;
-; form1[33][1]~252  ; 8           ;
-; form1[34][3]~251  ; 8           ;
-; form1[75][6]~246  ; 8           ;
-; form1[72][4]~245  ; 8           ;
-; form1[73][0]~244  ; 8           ;
-; form1[79][5]~243  ; 8           ;
-; form1[76][6]~242  ; 8           ;
-; form1[77][6]~239  ; 8           ;
-; form1[107][0]~238 ; 8           ;
-; form1[105][0]~237 ; 8           ;
-; form1[111][0]~235 ; 8           ;
-; form1[109][5]~232 ; 8           ;
-; form1[115][1]~223 ; 8           ;
-; form1[112][3]~222 ; 8           ;
-; form1[113][1]~221 ; 8           ;
-; form1[114][3]~220 ; 8           ;
-; form1[119][5]~219 ; 8           ;
-; form1[116][4]~218 ; 8           ;
-; form1[118][0]~217 ; 8           ;
-; form1[117][3]~216 ; 8           ;
-; form1[66][6]~215  ; 8           ;
-; form1[68][4]~214  ; 8           ;
-; form1[70][3]~213  ; 8           ;
-; form1[83][4]~212  ; 8           ;
-; form1[80][0]~211  ; 8           ;
-; form1[81][0]~210  ; 8           ;
-; form1[82][0]~209  ; 8           ;
-; form1[87][2]~208  ; 8           ;
-; form1[84][6]~207  ; 8           ;
-; form1[86][3]~206  ; 8           ;
-; form1[85][4]~205  ; 8           ;
-; form1[96][1]~204  ; 8           ;
-; form1[98][0]~203  ; 8           ;
-; form1[100][5]~202 ; 8           ;
-; form1[102][2]~201 ; 8           ;
-; form1[59][1]~199  ; 8           ;
-; form1[56][1]~198  ; 8           ;
-; form1[57][1]~197  ; 8           ;
-; form1[58][1]~196  ; 8           ;
-; form1[63][3]~195  ; 8           ;
-; form1[60][1]~194  ; 8           ;
-; form1[62][6]~193  ; 8           ;
-; form1[61][7]~192  ; 8           ;
-; form1[27][3]~191  ; 8           ;
-; form1[24][6]~190  ; 8           ;
-; form1[25][1]~189  ; 8           ;
-; form1[26][6]~188  ; 8           ;
-; form1[31][5]~187  ; 8           ;
-; form1[28][7]~186  ; 8           ;
-; form1[30][0]~185  ; 8           ;
-; form1[29][0]~184  ; 8           ;
-; form1[51][1]~183  ; 8           ;
-; form1[48][7]~182  ; 8           ;
-; form1[49][2]~181  ; 8           ;
-; form1[50][1]~180  ; 8           ;
-; form1[55][3]~179  ; 8           ;
-; form1[52][2]~178  ; 8           ;
-; form1[54][5]~177  ; 8           ;
-; form1[53][6]~176  ; 8           ;
-; form1[7][7]~175   ; 8           ;
-; form1[4][3]~174   ; 8           ;
-; form1[6][7]~173   ; 8           ;
-; form1[5][7]~172   ; 8           ;
-; form1[39][3]~170  ; 8           ;
-; form1[36][6]~169  ; 8           ;
-; form1[38][1]~168  ; 8           ;
-; form1[37][2]~166  ; 8           ;
-; form1[19][3]~165  ; 8           ;
-; form1[16][5]~164  ; 8           ;
-; form1[17][6]~163  ; 8           ;
-; form1[18][3]~162  ; 8           ;
-; form1[23][1]~160  ; 8           ;
-; form1[20][3]~159  ; 8           ;
-; form1[22][3]~158  ; 8           ;
-; form1[21][3]~156  ; 8           ;
-; form1[123][4]~153 ; 8           ;
-; form1[120][6]~152 ; 8           ;
-; form1[121][3]~151 ; 8           ;
-; form1[122][4]~150 ; 8           ;
-; form1[127][7]~149 ; 8           ;
-; form1[124][4]~147 ; 8           ;
-; form1[126][4]~146 ; 8           ;
-; form1[125][4]~145 ; 8           ;
-; form1[74][5]~144  ; 8           ;
-; form1[78][5]~143  ; 8           ;
-; form1[91][7]~142  ; 8           ;
-; form1[88][4]~141  ; 8           ;
-; form1[89][2]~140  ; 8           ;
-; form1[90][4]~139  ; 8           ;
-; form1[95][5]~137  ; 8           ;
-; form1[92][3]~136  ; 8           ;
-; form1[94][3]~135  ; 8           ;
-; form1[93][7]~133  ; 8           ;
-; form1[104][2]~130 ; 8           ;
-; form1[106][4]~129 ; 8           ;
-; form1[108][5]~127 ; 8           ;
-; form1[110][6]~126 ; 8           ;
-; out[0]~10         ; 8           ;
-; LessThan0~7       ; 8           ;
-; cnt[0]            ; 7           ;
-; form1[70][3]~167  ; 6           ;
-; cnt[6]            ; 6           ;
-; form1[67][5]~282  ; 4           ;
-; form1[15][4]~257  ; 4           ;
-; form1[12][3]~256  ; 4           ;
-; form1[13][2]~255  ; 4           ;
-; form1[47][0]~249  ; 4           ;
-; form1[45][4]~248  ; 4           ;
-; form1[127][7]~247 ; 4           ;
-; form1[68][4]~241  ; 4           ;
-; form1[75][6]~236  ; 4           ;
-; form1[79][5]~231  ; 4           ;
-; form1[71][2]~200  ; 4           ;
-; j[31]~31          ; 4           ;
-; form1[10][0]~267  ; 3           ;
-; form1[14][1]~263  ; 3           ;
-; form1[2][5]~250   ; 3           ;
-; form1[66][6]~240  ; 3           ;
-; form1[116][4]~234 ; 3           ;
-; form1[114][3]~233 ; 3           ;
-; form1[115][1]~171 ; 3           ;
-; form1[59][1]~128  ; 3           ;
-; form1[127][7]~122 ; 3           ;
-; data[7]           ; 2           ;
-; data[6]           ; 2           ;
-; data[5]           ; 2           ;
-; data[4]           ; 2           ;
-; data[3]           ; 2           ;
-; data[2]           ; 2           ;
-; data[0]           ; 2           ;
-; data[1]           ; 2           ;
+; cnt[29]~48        ; 32          ;
+; cnt[3]            ; 17          ;
+; form1[60][4]~64   ; 16          ;
+; form1[112][5]~58  ; 16          ;
+; form1[115][1]~56  ; 16          ;
+; form1[119][3]~52  ; 16          ;
+; form1[12][7]~51   ; 16          ;
+; form1[116][7]~49  ; 16          ;
+; form1[15][7]~48   ; 16          ;
+; form1[68][2]~19   ; 16          ;
+; form1[71][4]~16   ; 16          ;
+; form1[116][7]~5   ; 16          ;
+; form1[119][3]~2   ; 16          ;
+; cnt[1]            ; 16          ;
+; cnt[2]            ; 16          ;
+; form1[63][2]~62   ; 15          ;
+; form1[63][2]~25   ; 15          ;
+; form1[58][4]~24   ; 9           ;
+; cnt[0]            ; 9           ;
+; cnt[5]            ; 9           ;
+; cnt[6]            ; 9           ;
+; form1[115][1]~154 ; 8           ;
+; form1[112][5]~153 ; 8           ;
+; form1[113][6]~152 ; 8           ;
+; form1[114][3]~151 ; 8           ;
+; form1[119][3]~150 ; 8           ;
+; form1[116][7]~149 ; 8           ;
+; form1[118][7]~148 ; 8           ;
+; form1[117][7]~147 ; 8           ;
+; form1[67][6]~146  ; 8           ;
+; form1[64][0]~145  ; 8           ;
+; form1[65][6]~144  ; 8           ;
+; form1[66][2]~143  ; 8           ;
+; form1[71][4]~142  ; 8           ;
+; form1[68][2]~141  ; 8           ;
+; form1[70][4]~140  ; 8           ;
+; form1[69][4]~139  ; 8           ;
+; form1[83][7]~138  ; 8           ;
+; form1[80][7]~137  ; 8           ;
+; form1[81][1]~136  ; 8           ;
+; form1[82][1]~135  ; 8           ;
+; form1[87][1]~134  ; 8           ;
+; form1[84][3]~133  ; 8           ;
+; form1[86][4]~132  ; 8           ;
+; form1[85][1]~131  ; 8           ;
+; form1[99][0]~130  ; 8           ;
+; form1[96][1]~129  ; 8           ;
+; form1[97][4]~128  ; 8           ;
+; form1[98][0]~127  ; 8           ;
+; form1[103][4]~126 ; 8           ;
+; form1[100][5]~125 ; 8           ;
+; form1[102][4]~124 ; 8           ;
+; form1[101][0]~123 ; 8           ;
+; form1[59][5]~122  ; 8           ;
+; form1[56][1]~121  ; 8           ;
+; form1[57][4]~120  ; 8           ;
+; form1[58][4]~119  ; 8           ;
+; form1[63][2]~118  ; 8           ;
+; form1[60][4]~117  ; 8           ;
+; form1[62][2]~116  ; 8           ;
+; form1[61][4]~115  ; 8           ;
+; form1[11][7]~114  ; 8           ;
+; form1[8][0]~113   ; 8           ;
+; form1[9][1]~112   ; 8           ;
+; form1[10][7]~111  ; 8           ;
+; form1[15][7]~110  ; 8           ;
+; form1[12][7]~109  ; 8           ;
+; form1[14][5]~108  ; 8           ;
+; form1[13][2]~107  ; 8           ;
+; form1[27][1]~106  ; 8           ;
+; form1[24][4]~105  ; 8           ;
+; form1[25][4]~104  ; 8           ;
+; form1[26][2]~103  ; 8           ;
+; form1[31][0]~102  ; 8           ;
+; form1[28][0]~101  ; 8           ;
+; form1[30][0]~100  ; 8           ;
+; form1[29][0]~99   ; 8           ;
+; form1[43][3]~98   ; 8           ;
+; form1[40][6]~96   ; 8           ;
+; form1[41][6]~95   ; 8           ;
+; form1[42][3]~93   ; 8           ;
+; form1[47][2]~91   ; 8           ;
+; form1[44][3]~90   ; 8           ;
+; form1[46][5]~89   ; 8           ;
+; form1[45][7]~88   ; 8           ;
+; form1[51][6]~87   ; 8           ;
+; form1[48][6]~86   ; 8           ;
+; form1[49][2]~85   ; 8           ;
+; form1[50][5]~84   ; 8           ;
+; form1[55][3]~83   ; 8           ;
+; form1[52][6]~82   ; 8           ;
+; form1[54][4]~81   ; 8           ;
+; form1[53][1]~80   ; 8           ;
+; form1[3][5]~79    ; 8           ;
+; form1[0][7]~78    ; 8           ;
+; form1[1][7]~77    ; 8           ;
+; form1[2][7]~76    ; 8           ;
+; form1[7][2]~75    ; 8           ;
+; form1[4][4]~74    ; 8           ;
+; form1[6][2]~73    ; 8           ;
+; form1[5][2]~72    ; 8           ;
+; form1[35][5]~71   ; 8           ;
+; form1[32][6]~70   ; 8           ;
+; form1[33][5]~69   ; 8           ;
+; form1[34][4]~68   ; 8           ;
+; form1[39][3]~67   ; 8           ;
+; form1[36][6]~66   ; 8           ;
+; form1[38][3]~65   ; 8           ;
+; form1[37][1]~63   ; 8           ;
+; form1[19][0]~61   ; 8           ;
+; form1[16][7]~60   ; 8           ;
+; form1[17][7]~59   ; 8           ;
+; form1[18][7]~57   ; 8           ;
+; form1[23][2]~55   ; 8           ;
+; form1[20][3]~54   ; 8           ;
+; form1[22][5]~53   ; 8           ;
+; form1[21][6]~50   ; 8           ;
+; form1[123][5]~47  ; 8           ;
+; form1[120][2]~46  ; 8           ;
+; form1[121][1]~45  ; 8           ;
+; form1[122][6]~44  ; 8           ;
+; form1[127][6]~43  ; 8           ;
+; form1[124][0]~42  ; 8           ;
+; form1[126][4]~41  ; 8           ;
+; form1[125][0]~40  ; 8           ;
+; form1[75][1]~39   ; 8           ;
+; form1[72][5]~38   ; 8           ;
+; form1[73][4]~37   ; 8           ;
+; form1[74][1]~35   ; 8           ;
+; form1[79][6]~34   ; 8           ;
+; form1[76][3]~33   ; 8           ;
+; form1[78][4]~32   ; 8           ;
+; form1[77][5]~31   ; 8           ;
+; form1[91][5]~30   ; 8           ;
+; form1[88][7]~29   ; 8           ;
+; form1[89][0]~28   ; 8           ;
+; form1[112][5]~27  ; 8           ;
+; form1[90][0]~26   ; 8           ;
+; form1[95][6]~23   ; 8           ;
+; form1[92][6]~22   ; 8           ;
+; form1[94][2]~21   ; 8           ;
+; form1[63][2]~20   ; 8           ;
+; form1[93][3]~18   ; 8           ;
+; form1[60][4]~17   ; 8           ;
+; form1[107][4]~15  ; 8           ;
+; form1[104][7]~14  ; 8           ;
+; form1[105][7]~13  ; 8           ;
+; form1[106][2]~11  ; 8           ;
+; form1[111][1]~9   ; 8           ;
+; form1[108][1]~8   ; 8           ;
+; form1[110][3]~7   ; 8           ;
+; form1[15][7]~6    ; 8           ;
+; form1[109][3]~4   ; 8           ;
+; form1[12][7]~3    ; 8           ;
+; form1[119][3]~1   ; 8           ;
+; form1[11][7]~10   ; 6           ;
+; form1[8][0]~12    ; 5           ;
+; LessThan0~7       ; 3           ;
+; j[31]             ; 3           ;
+; cnt[31]           ; 3           ;
+; form1[41][6]~97   ; 2           ;
+; form1[40][6]~94   ; 2           ;
 ; Mux8~87           ; 2           ;
 ; Mux8~81           ; 2           ;
 ; Mux8~76           ; 2           ;
@@ -1848,30 +1822,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Mux14~14          ; 2           ;
 ; Mux14~9           ; 2           ;
 ; Mux14~4           ; 2           ;
-; cnt[30]           ; 2           ;
-; cnt[29]           ; 2           ;
-; cnt[28]           ; 2           ;
-; cnt[27]           ; 2           ;
-; cnt[26]           ; 2           ;
-; cnt[25]           ; 2           ;
-; cnt[24]           ; 2           ;
-; cnt[23]           ; 2           ;
-; cnt[22]           ; 2           ;
-; cnt[21]           ; 2           ;
-; cnt[20]           ; 2           ;
-; cnt[19]           ; 2           ;
-; cnt[18]           ; 2           ;
-; cnt[17]           ; 2           ;
-; cnt[16]           ; 2           ;
-; cnt[15]           ; 2           ;
-; cnt[14]           ; 2           ;
-; cnt[13]           ; 2           ;
-; cnt[12]           ; 2           ;
-; cnt[11]           ; 2           ;
-; cnt[10]           ; 2           ;
-; cnt[9]            ; 2           ;
-; cnt[8]            ; 2           ;
-; cnt[7]            ; 2           ;
+; valid~7           ; 2           ;
+; LessThan0~6       ; 2           ;
+; LessThan0~5       ; 2           ;
+; LessThan0~4       ; 2           ;
 ; j[30]             ; 2           ;
 ; j[29]             ; 2           ;
 ; j[28]             ; 2           ;
@@ -1896,10 +1850,40 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; j[9]              ; 2           ;
 ; j[8]              ; 2           ;
 ; j[7]              ; 2           ;
-; j[31]             ; 2           ;
-; cnt[0]~94         ; 1           ;
-; form1[127][7]~148 ; 1           ;
-; j[0]~95           ; 1           ;
+; cnt[30]           ; 2           ;
+; cnt[29]           ; 2           ;
+; cnt[28]           ; 2           ;
+; cnt[27]           ; 2           ;
+; cnt[26]           ; 2           ;
+; cnt[25]           ; 2           ;
+; cnt[24]           ; 2           ;
+; cnt[23]           ; 2           ;
+; cnt[22]           ; 2           ;
+; cnt[21]           ; 2           ;
+; cnt[20]           ; 2           ;
+; cnt[19]           ; 2           ;
+; cnt[18]           ; 2           ;
+; cnt[17]           ; 2           ;
+; cnt[16]           ; 2           ;
+; cnt[15]           ; 2           ;
+; cnt[14]           ; 2           ;
+; cnt[13]           ; 2           ;
+; cnt[12]           ; 2           ;
+; cnt[11]           ; 2           ;
+; cnt[10]           ; 2           ;
+; cnt[9]            ; 2           ;
+; cnt[8]            ; 2           ;
+; cnt[7]            ; 2           ;
+; data[7]           ; 1           ;
+; data[6]           ; 1           ;
+; data[5]           ; 1           ;
+; data[4]           ; 1           ;
+; data[3]           ; 1           ;
+; data[2]           ; 1           ;
+; data[0]           ; 1           ;
+; data[1]           ; 1           ;
+; form1[42][3]~92   ; 1           ;
+; form1[73][4]~36   ; 1           ;
 ; Mux0~9            ; 1           ;
 ; Mux0~8            ; 1           ;
 ; Mux0~7            ; 1           ;
@@ -2519,6 +2503,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; form1[57][5]      ; 1           ;
 ; form1[58][5]      ; 1           ;
 ; Mux10~6           ; 1           ;
+; form1[63][5]      ; 1           ;
+; Mux10~5           ; 1           ;
+; form1[60][5]      ; 1           ;
+; form1[62][5]      ; 1           ;
+; form1[61][5]      ; 1           ;
+; Mux10~3           ; 1           ;
+; form1[107][5]     ; 1           ;
+; Mux10~2           ; 1           ;
 +-------------------+-------------+
 
 
@@ -2527,155 +2519,158 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+---------------------------+
 ; Other Routing Resource Type ; Usage                     ;
 +-----------------------------+---------------------------+
-; Block interconnects         ; 2,735 / 197,592 ( 1 % )   ;
-; C16 interconnects           ; 20 / 6,270 ( < 1 % )      ;
-; C4 interconnects            ; 1,183 / 123,120 ( < 1 % ) ;
-; Direct links                ; 449 / 197,592 ( < 1 % )   ;
+; Block interconnects         ; 2,794 / 197,592 ( 1 % )   ;
+; C16 interconnects           ; 16 / 6,270 ( < 1 % )      ;
+; C4 interconnects            ; 1,262 / 123,120 ( 1 % )   ;
+; Direct links                ; 415 / 197,592 ( < 1 % )   ;
 ; Global clocks               ; 1 / 16 ( 6 % )            ;
-; Local interconnects         ; 594 / 68,416 ( < 1 % )    ;
-; R24 interconnects           ; 10 / 5,926 ( < 1 % )      ;
-; R4 interconnects            ; 1,125 / 167,484 ( < 1 % ) ;
+; Local interconnects         ; 563 / 68,416 ( < 1 % )    ;
+; R24 interconnects           ; 8 / 5,926 ( < 1 % )       ;
+; R4 interconnects            ; 1,269 / 167,484 ( < 1 % ) ;
 +-----------------------------+---------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                          ;
 +---------------------------------------------+-------------------------------+
-; Number of Logic Elements  (Average = 11.63) ; Number of LABs  (Total = 134) ;
+; Number of Logic Elements  (Average = 11.21) ; Number of LABs  (Total = 138) ;
 +---------------------------------------------+-------------------------------+
-; 1                                           ; 4                             ;
-; 2                                           ; 7                             ;
-; 3                                           ; 2                             ;
-; 4                                           ; 6                             ;
-; 5                                           ; 5                             ;
-; 6                                           ; 9                             ;
-; 7                                           ; 2                             ;
-; 8                                           ; 1                             ;
-; 9                                           ; 3                             ;
-; 10                                          ; 2                             ;
-; 11                                          ; 8                             ;
-; 12                                          ; 8                             ;
-; 13                                          ; 4                             ;
-; 14                                          ; 15                            ;
-; 15                                          ; 12                            ;
-; 16                                          ; 46                            ;
+; 1                                           ; 3                             ;
+; 2                                           ; 9                             ;
+; 3                                           ; 3                             ;
+; 4                                           ; 9                             ;
+; 5                                           ; 7                             ;
+; 6                                           ; 2                             ;
+; 7                                           ; 3                             ;
+; 8                                           ; 2                             ;
+; 9                                           ; 9                             ;
+; 10                                          ; 7                             ;
+; 11                                          ; 6                             ;
+; 12                                          ; 4                             ;
+; 13                                          ; 6                             ;
+; 14                                          ; 7                             ;
+; 15                                          ; 20                            ;
+; 16                                          ; 41                            ;
 +---------------------------------------------+-------------------------------+
 
 
 +--------------------------------------------------------------------+
 ; LAB-wide Signals                                                   ;
 +------------------------------------+-------------------------------+
-; LAB-wide Signals  (Average = 1.87) ; Number of LABs  (Total = 134) ;
+; LAB-wide Signals  (Average = 1.85) ; Number of LABs  (Total = 138) ;
 +------------------------------------+-------------------------------+
-; 1 Clock                            ; 133                           ;
-; 1 Clock enable                     ; 38                            ;
-; 2 Clock enables                    ; 80                            ;
+; 1 Clock                            ; 135                           ;
+; 1 Clock enable                     ; 51                            ;
+; 1 Sync. clear                      ; 5                             ;
+; 2 Clock enables                    ; 64                            ;
 +------------------------------------+-------------------------------+
 
 
 +------------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                          ;
 +----------------------------------------------+-------------------------------+
-; Number of Signals Sourced  (Average = 17.98) ; Number of LABs  (Total = 134) ;
+; Number of Signals Sourced  (Average = 17.24) ; Number of LABs  (Total = 138) ;
 +----------------------------------------------+-------------------------------+
 ; 0                                            ; 0                             ;
 ; 1                                            ; 2                             ;
-; 2                                            ; 2                             ;
-; 3                                            ; 1                             ;
+; 2                                            ; 1                             ;
+; 3                                            ; 3                             ;
 ; 4                                            ; 7                             ;
-; 5                                            ; 1                             ;
-; 6                                            ; 2                             ;
-; 7                                            ; 1                             ;
+; 5                                            ; 4                             ;
+; 6                                            ; 3                             ;
+; 7                                            ; 5                             ;
 ; 8                                            ; 5                             ;
-; 9                                            ; 4                             ;
-; 10                                           ; 7                             ;
+; 9                                            ; 2                             ;
+; 10                                           ; 5                             ;
 ; 11                                           ; 2                             ;
-; 12                                           ; 1                             ;
-; 13                                           ; 6                             ;
-; 14                                           ; 0                             ;
-; 15                                           ; 3                             ;
-; 16                                           ; 7                             ;
-; 17                                           ; 6                             ;
-; 18                                           ; 8                             ;
+; 12                                           ; 2                             ;
+; 13                                           ; 4                             ;
+; 14                                           ; 2                             ;
+; 15                                           ; 5                             ;
+; 16                                           ; 4                             ;
+; 17                                           ; 8                             ;
+; 18                                           ; 4                             ;
 ; 19                                           ; 6                             ;
 ; 20                                           ; 7                             ;
-; 21                                           ; 8                             ;
-; 22                                           ; 4                             ;
-; 23                                           ; 7                             ;
-; 24                                           ; 2                             ;
-; 25                                           ; 6                             ;
-; 26                                           ; 6                             ;
-; 27                                           ; 6                             ;
-; 28                                           ; 6                             ;
-; 29                                           ; 5                             ;
-; 30                                           ; 2                             ;
+; 21                                           ; 6                             ;
+; 22                                           ; 11                            ;
+; 23                                           ; 6                             ;
+; 24                                           ; 4                             ;
+; 25                                           ; 7                             ;
+; 26                                           ; 5                             ;
+; 27                                           ; 5                             ;
+; 28                                           ; 4                             ;
+; 29                                           ; 3                             ;
+; 30                                           ; 1                             ;
 ; 31                                           ; 1                             ;
-; 32                                           ; 3                             ;
+; 32                                           ; 4                             ;
 +----------------------------------------------+-------------------------------+
 
 
 +---------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                         ;
 +-------------------------------------------------+-------------------------------+
-; Number of Signals Sourced Out  (Average = 8.49) ; Number of LABs  (Total = 134) ;
+; Number of Signals Sourced Out  (Average = 8.60) ; Number of LABs  (Total = 138) ;
 +-------------------------------------------------+-------------------------------+
 ; 0                                               ; 0                             ;
-; 1                                               ; 8                             ;
-; 2                                               ; 7                             ;
-; 3                                               ; 6                             ;
-; 4                                               ; 10                            ;
-; 5                                               ; 6                             ;
-; 6                                               ; 9                             ;
-; 7                                               ; 2                             ;
-; 8                                               ; 15                            ;
-; 9                                               ; 14                            ;
-; 10                                              ; 13                            ;
-; 11                                              ; 7                             ;
-; 12                                              ; 6                             ;
-; 13                                              ; 13                            ;
-; 14                                              ; 9                             ;
-; 15                                              ; 5                             ;
-; 16                                              ; 4                             ;
+; 1                                               ; 10                            ;
+; 2                                               ; 5                             ;
+; 3                                               ; 4                             ;
+; 4                                               ; 11                            ;
+; 5                                               ; 12                            ;
+; 6                                               ; 6                             ;
+; 7                                               ; 10                            ;
+; 8                                               ; 12                            ;
+; 9                                               ; 8                             ;
+; 10                                              ; 12                            ;
+; 11                                              ; 8                             ;
+; 12                                              ; 4                             ;
+; 13                                              ; 10                            ;
+; 14                                              ; 10                            ;
+; 15                                              ; 7                             ;
+; 16                                              ; 8                             ;
+; 17                                              ; 0                             ;
+; 18                                              ; 1                             ;
 +-------------------------------------------------+-------------------------------+
 
 
 +------------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                          ;
 +----------------------------------------------+-------------------------------+
-; Number of Distinct Inputs  (Average = 19.94) ; Number of LABs  (Total = 134) ;
+; Number of Distinct Inputs  (Average = 19.74) ; Number of LABs  (Total = 138) ;
 +----------------------------------------------+-------------------------------+
 ; 0                                            ; 0                             ;
 ; 1                                            ; 0                             ;
 ; 2                                            ; 0                             ;
-; 3                                            ; 7                             ;
-; 4                                            ; 2                             ;
-; 5                                            ; 2                             ;
-; 6                                            ; 3                             ;
-; 7                                            ; 4                             ;
-; 8                                            ; 4                             ;
-; 9                                            ; 1                             ;
-; 10                                           ; 2                             ;
-; 11                                           ; 4                             ;
-; 12                                           ; 3                             ;
-; 13                                           ; 7                             ;
-; 14                                           ; 2                             ;
-; 15                                           ; 3                             ;
+; 3                                            ; 5                             ;
+; 4                                            ; 3                             ;
+; 5                                            ; 3                             ;
+; 6                                            ; 10                            ;
+; 7                                            ; 6                             ;
+; 8                                            ; 3                             ;
+; 9                                            ; 2                             ;
+; 10                                           ; 3                             ;
+; 11                                           ; 1                             ;
+; 12                                           ; 2                             ;
+; 13                                           ; 3                             ;
+; 14                                           ; 1                             ;
+; 15                                           ; 1                             ;
 ; 16                                           ; 2                             ;
-; 17                                           ; 4                             ;
-; 18                                           ; 3                             ;
-; 19                                           ; 3                             ;
-; 20                                           ; 3                             ;
-; 21                                           ; 4                             ;
-; 22                                           ; 7                             ;
-; 23                                           ; 6                             ;
-; 24                                           ; 3                             ;
-; 25                                           ; 7                             ;
-; 26                                           ; 8                             ;
-; 27                                           ; 6                             ;
+; 17                                           ; 3                             ;
+; 18                                           ; 4                             ;
+; 19                                           ; 8                             ;
+; 20                                           ; 2                             ;
+; 21                                           ; 3                             ;
+; 22                                           ; 6                             ;
+; 23                                           ; 9                             ;
+; 24                                           ; 2                             ;
+; 25                                           ; 8                             ;
+; 26                                           ; 4                             ;
+; 27                                           ; 5                             ;
 ; 28                                           ; 5                             ;
-; 29                                           ; 6                             ;
+; 29                                           ; 8                             ;
 ; 30                                           ; 9                             ;
-; 31                                           ; 14                            ;
+; 31                                           ; 17                            ;
 +----------------------------------------------+-------------------------------+
 
 
@@ -2772,11 +2767,11 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:04
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 13% of the available device resources in the region that extends from location X36_Y26 to location X47_Y38
+    Info (170196): Router estimated peak interconnect usage is 17% of the available device resources in the region that extends from location X48_Y26 to location X59_Y38
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:04
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.94 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.91 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 9 output pins without output pin load capacitance assignment
     Info (306007): Pin "valid" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
@@ -2791,12 +2786,12 @@ Warning (306006): Found 9 output pins without output pin load capacitance assign
 Info (306005): Delay annotation completed successfully
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/forQuartus/output_files/Average.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 4995 megabytes
-    Info: Processing ended: Mon May 16 19:12:28 2022
+    Info: Processing ended: Mon May 16 19:28:08 2022
     Info: Elapsed time: 00:00:19
     Info: Total CPU time (on all processors): 00:00:19
 

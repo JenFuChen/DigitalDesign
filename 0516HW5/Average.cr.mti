@@ -1,4 +1,11 @@
-C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v {1 {vlog -work work C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
+C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.v {1 {vlog -work work C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Average
+
+Top level modules:
+	Average
+
+} {} {}} C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v {1 {vlog -work work C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module testfixture
 
