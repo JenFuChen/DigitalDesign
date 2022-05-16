@@ -1,8 +1,8 @@
 module Average(clk, reset, data, valid, out);
 input        clk, reset;
 input  [7:0] data;
-output       valid;
-output [7:0] out;
+output reg[1:0] valid;
+output reg[7:0] out;
 //===================== Your Design =====================
 reg [8:0] sum;
 reg [7:0] form1[127:0]; //  存輸入資料
