@@ -6,9 +6,7 @@ output reg[7:0] out;
 //===================== Your Design =====================
 reg [8:0] sum;
 reg [7:0] form1[127:0]; //  存輸入資料
-reg [7:0] a,b; //   做加減
-integer cnt = 0;
-integer i;
+integer cnt = 0,i = 0, j = 0;
 //開始存資料
 always @(posedge clk)
 begin
