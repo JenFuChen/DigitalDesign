@@ -13,26 +13,30 @@ begin
     if(reset)
     begin
         valid = 1'b0;
-        out = 8'b0000000;
-        for(i = 0; i <127;i = i + 1)begin
-            form1[i] <= 8'b00000000;
+        j = 0;
+        i = 0;
+        cnt = 0;
+        sum = 9'b000000000;
+        out = 8'b00000000;
+        for(i = 0 ; i < 128 ;i = i + 1)begin
+            form1[i] = 8'b00000000;
         end
     end
     else begin
+        valid = 1'b0;
         // 128 筆資料存入
-        if(cnt <=127) begin
-            form1[cnt] <= data;
-            cnt <= cnt + 1;
-            valid <= 1'b0;
+        if(cnt <= 127) begin
+            form1[cnt] = data;
+            cnt = cnt + 1;
+            valid = 1'b0;
         end
         // 存完之後改做這邊
         else begin
-            valid = 1'b0;
             if(j < 120)begin
                 sum = form1[j][7:0] + form1[j+8][7:0];
-                out = (sum >> 1) + sum[0];
                 valid = 1'b1;
-                j = j + 1;    
+                out = (sum >> 1) + sum[0];
+                j = j + 1;
             end
         end
     end
