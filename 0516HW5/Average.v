@@ -22,7 +22,7 @@ begin
     end
 end
 
-for(i = 0; i <= 14; i = i + 1)
+for(i = 0; i <= 1; i = i + 1)
 begin
     for(j = 0; j <= 7 ; j = j + 1)begin
         sum = (form1[i][j] + form1[i+1][j]);
