@@ -12,7 +12,7 @@ integer row = 0;
 integer cnt = 0;
 integer i,j;
 //開始存資料
-always @(clk)
+always @(possedge clk)
 begin
     form1[row][col] = data;
     col = col + 1;
