@@ -1,1 +1,2 @@
 Warning (10268): Verilog HDL information at testfixture.v(68): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at Average.v(11): always construct contains both blocking and non-blocking assignments

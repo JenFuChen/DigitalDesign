@@ -6,7 +6,9 @@ output reg[7:0] out;
 //===================== Your Design =====================
 reg [8:0] sum;
 reg [7:0] form1[127:0]; //  存輸入資料
-integer cnt = 0, i = 0, j = 0;
+reg [7:0] a,b; //   做加減
+integer cnt = 0;
+integer i;
 //開始存資料
 always @(posedge clk)
 begin
@@ -27,12 +29,17 @@ begin
         end
         // 存完之後改做這邊
         else begin
-            valid = 1'b0;
-            if(j < 120)begin
-                sum = form1[j][7:0] + form1[j+8][7:0];
-                out = (sum >> 1) + sum[0];
-                valid = 1'b1;
-                j = j + 1;    
+            for(i = 0; i <= 119; i = i + 1)begin
+                a = form1[i];
+                b = form1[i+8];
+                sum = a + b;
+                if(clk == 1)
+                begin   
+                    valid = 1'b1;
+                    out = (sum >> 1) + sum[0];
+                end
+                else
+                    valid = 1'b0;
             end
         end
     end
