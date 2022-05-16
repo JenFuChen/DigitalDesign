@@ -22,25 +22,6 @@ begin
         row = row + 1 ;
         col = 0;
     end
-<<<<<<< HEAD
-end
-
-for(i = 0; i <= 1; i = i + 1)
-begin
-    for(j = 0; j <= 7 ; j = j + 1)begin
-        sum = (form1[i][j] + form1[i+1][j]);
-        form2[i][j] = sum / 2;
-=======
-	 if(cnt >= 127)
-	 begin
-		 for(i = 0; i <= 14; i = i + 1)begin
-			for(j = 0; j <= 7 ; j = j + 1)begin
-				  assign sum = (form1[i][j] + form1[i+1][j]) /2 ;
-				  form2[i][j] = sum ;
-			end
-		end
->>>>>>> c3efc3be3a626c5daaf7ac55f97796ef4e239a00
-    end
 end
 //===================== Your Design =====================
 endmodule
