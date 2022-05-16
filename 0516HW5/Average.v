@@ -4,30 +4,32 @@ input  [7:0] data;
 output       valid;
 output [7:0] out;
 //===================== Your Design =====================
-wire [8:0] sum;
-reg [7:0] form1[15:0][7:0]; //  存資料
-reg [7:0] form2[14:0][7:0]; //  輸出的
+reg [8:0] sum;
+reg [7:0] form1[15:0][7:0]; //  存輸入資料
+reg [7:0] form2[14:0][7:0]; //  存輸出資料
 integer col = 0;
 integer row = 0;
 integer cnt = 0;
 integer i,j;
 //開始存資料
-always @(clk)
+always @(posedge clk)
 begin
-    form1[row][col] = data;
-    col = col + 1;
-	 cnt = cnt + 1;
-    if( col % 8 == 0) 
-    begin
-        row = row + 1 ;
-        col = 0;
+    if(cnt <=127) begin
+        form1[row][col] = data;
+        col = col + 1;
+        cnt = cnt + 1;
+        if( col % 8 == 0) begin
+            row = row + 1 ;
+            col = 0;
+        end
     end
-	 if(cnt >= 127)
-	 begin
-		 for(i = 0; i <= 14; i = i + 1)begin
+	else begin
+		for(i = 0; i <= 14; i = i + 1)begin
 			for(j = 0; j <= 7 ; j = j + 1)begin
-				  assign sum = (form1[i][j] + form1[i+1][j]) /2 ;
-				  form2[i][j] = sum ;
+			    sum = (form1[i][j] + form1[i+1][j]) / 2 ;
+				form2[i][j] = sum ;
+                valid = 1'b1;
+                out = form2[i][j];
 			end
 		end
     end
