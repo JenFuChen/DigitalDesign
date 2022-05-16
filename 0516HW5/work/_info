@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Documents\JenFu\DigitalDesign\0509HW4
+vAverage
+!i10b 1
+!s100 ]G0==V0WXFG:9N0c>1@4M1
+IC2^]ZQUG<Q1=J4DG__3Xo0
+Z1 Vn2TB[En45<E?G[OLKOX>20
+Z2 dC:\Users\user\Documents\JenFu\DigitalDesign\0516HW5
+Z3 w1652692728
+8C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo
+FC:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo
+L0 31
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1652692933.376000
+!s107 C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo|
+!s90 -reportprogress|300|-work|work|C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/Average.vo|
+!s101 -O0
+Z5 o-work work -O0
+Z6 n@average
+vtestfixture
+Z7 !s100 Y<@J:[i5?_2i:iTVX??_f0
+Z8 IV]T]faa;QUYB^PZLUTecJ1
+Z9 VKBIIT=eCh7cJh[^JXBGX00
+R2
+Z10 w1652688127
+Z11 8C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
+Z12 FC:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v
+L0 10
+R4
+r1
+31
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v|
+R5
+!i10b 1
+!s85 0
+Z14 !s108 1652692933.314000
+Z15 !s107 C:/Users/user/Documents/JenFu/DigitalDesign/0516HW5/testfixture.v|
+!s101 -O0
