@@ -5,9 +5,9 @@ output reg valid;
 output reg[7:0] out;
 //===================== Your Design =====================
 reg [8:0] sum;
-reg [7:0] form1[127:0]; //  ¦s¿é¤J¸ê®Æ
+reg [7:0] form1[127:0]; //  å­˜è¼¸å…¥è³‡æ–™
 integer cnt = 0,i = 0, j = 0;
-//¶}©l¦s¸ê®Æ
+//é–‹å§‹å­˜è³‡æ–™
 always @(posedge clk)
 begin
     if(reset)
@@ -23,13 +23,13 @@ begin
     end
     else begin
         valid = 1'b0;
-        // 128 µ§¸ê®Æ¦s¤J
+        // 128 ç­†è³‡æ–™å­˜å…¥
         if(cnt <= 127) begin
             form1[cnt] = data;
             cnt = cnt + 1;
             valid = 1'b0;
         end
-        // ¦s§¹¤§«á§ï°µ³oÃä
+        // å­˜å®Œä¹‹å¾Œæ”¹åšé€™é‚Š
         else begin
             if(j < 120)begin
                 sum = form1[j][7:0] + form1[j+8][7:0];
